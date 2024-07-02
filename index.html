@@ -8,7 +8,7 @@
   <script>
     var redirectToApp = function() {
       var openURL = window.location.search + window.location.hash;
-      window.location.replace(`stacks://--/oauth${openURL}`);
+      window.location.replace(`stacks://oauth${openURL}`);
     }
     window.onload = redirectToApp;
   </script>
