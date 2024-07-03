@@ -3,13 +3,15 @@
   <style>.text { font-size: 64px; }</style>
 </head>
 <body style="text-align: center;">
-  <p class="text">Please wait while we redirect you to Stacks again3...</p>
+  <p class="text">Please wait while we redirect you to Stacks again4...</p>
   <p class="text"><a href="javascript:redirectToApp()">Open Stacks</a></p>
   <script>
     var redirectToApp = function() {
       var openURL = window.location.search + window.location.hash;
       // window.location.replace(`stacks://oauth${openURL}`);
-      window.location.replace(`exp://exp.host/@griff9/pocketpaper/--/stacks${openURL}`);
+      // window.location.replace(`exp://exp.host/@griff9/pocketpaper/--/stacks${openURL}`);
+      window.location.replace(`exp://exp.host/@griff9/pocketpaper`);
+
     }
     window.onload = redirectToApp;
   </script>
