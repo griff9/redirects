@@ -8,8 +8,8 @@
   <script>
     var redirectToApp = function() {
       var openURL = window.location.search + window.location.hash;
-      // window.location.replace(`stacks://oauth${openURL}`);
-      window.location.replace(`https://cdn.plaid.com/link/v2/stable/link.html?isWebview=true&token=link-sandbox-c1e8dd0d-5404-4228-8975-f04816e30d1d&receivedRedirectUri=stacks://oauth?oauth_state_id=eb127667-64b0-4d51-8b95-c14d881b8460`);
+      window.location.replace(`stacks://oauth${openURL}`);
+      // window.location.replace(`https://cdn.plaid.com/link/v2/stable/link.html?isWebview=true&token=link-sandbox-c1e8dd0d-5404-4228-8975-f04816e30d1d&receivedRedirectUri=stacks://oauth?oauth_state_id=eb127667-64b0-4d51-8b95-c14d881b8460`);
       // window.location.replace(`exp://192.168.1.75:8081${openURL}`);
 
     }
