@@ -8,9 +8,9 @@
   <script>
     var redirectToApp = function() {
       var openURL = window.location.search + window.location.hash;
-      // window.location.replace(`stacks://oauth${openURL}`);
+      window.location.replace(`stacks://oauth${openURL}`);
       // window.location.replace(`exp://exp.host/@griff9/pocketpaper/--/stacks${openURL}`);
-      window.location.replace(`exp://192.168.1.75:8081${openURL}`);
+      // window.location.replace(`exp://192.168.1.75:8081${openURL}`);
 
     }
     window.onload = redirectToApp;
